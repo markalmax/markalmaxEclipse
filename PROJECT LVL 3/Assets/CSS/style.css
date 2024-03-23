@@ -27,12 +27,33 @@
      background-color: #069B50;
      color: white;
    }
- /* blog card */
+ /* container and its' cards */
+ .container{
+     display: grid;
+     grid-template-areas: 
+     "main1  . main2 ";
+     grid-row: 2px;
+     
+ }
  .blogcard{
      border: 1px;
      border-color: black;
      background-color:whitesmoke;
-     
+ 
+ }
+ #B1{
+     grid-area: main1;
+ }
+ #B2{
+     grid-area: main2;
+ }
+ 
+ /* footer */
+ .footer{
+     display: flex;
+     flex-wrap: nowrap; 
+     background-color: mediumseagreen;
+     grid-area: ft;
  }
  }
  @media(min-width: 901px){
@@ -63,12 +84,34 @@
      background-color: #069B50;
      color: white;
    }
- /* blog card */
+ /* container and its' cards */
+ .container{
+     display: grid;
+     grid-template-areas: 
+     "main1  . main2 ";
+     grid-row: 2px;
+     
+ }
  .blogcard{
      border: 1px;
      border-color: black;
      background-color:whitesmoke;
-     
+ 
+ }
+ #B1{
+     grid-area: main1;
+ }
+ #B2{
+     grid-area: main2;
+ }
+ 
+ /* footer */
+ .footer{
+     display: flex;
+     flex-wrap: nowrap; 
+     background-color: mediumseagreen;
+     grid-area: ft;
+ 
  } 
  }
  @media(max-width: 320px){
@@ -99,12 +142,33 @@
      background-color: #069B50;
      color: white;
    }
- /* blog card */
+ /* container and its' cards */
+ .container{
+     display: grid;
+     grid-template-areas: 
+     "main1  . main2 ";
+     grid-row: 2px;
+     
+ }
  .blogcard{
      border: 1px;
      border-color: black;
      background-color:whitesmoke;
-     
+ 
+ }
+ #B1{
+     grid-area: main1;
+ }
+ #B2{
+     grid-area: main2;
+ }
+ 
+ /* footer */
+ .footer{
+     display: flex;
+     flex-wrap: nowrap; 
+     background-color: mediumseagreen;
+     grid-area: ft;
  }
  }
  @media(min-width: 600px) and (max-width: 900px){
@@ -136,12 +200,33 @@
      background-color: #069B50;
      color: white;
    }
- /* blog card */
+ /* container and its' cards */
+ .container{
+     display: grid;
+     grid-template-areas: 
+     "main1  . main2 ";
+     grid-row: 2px;
+     
+ }
  .blogcard{
      border: 1px;
      border-color: black;
      background-color:whitesmoke;
-     
+ 
+ }
+ #B1{
+     grid-area: main1;
+ }
+ #B2{
+     grid-area: main2;
+ }
+ 
+ /* footer */
+ .footer{
+     display: flex;
+     flex-wrap: nowrap; 
+     background-color: mediumseagreen;
+     grid-area: ft;
  }
  }
  /* Hmm i wonder what are those empty lines for.... */
