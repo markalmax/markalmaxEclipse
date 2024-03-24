@@ -108,7 +108,7 @@
  /* container and its' cards */
  .container{
      display: grid;
-     grid-template-areas: 
+     grid-template-areas:
      "main1  . main2 ";
      grid-row: 2px;
  }
@@ -214,7 +214,7 @@
      min-height: 100vh;
      display: flex;
      flex-direction: column;
- }   
+ }  
   /* this code for nav bar */
  .topnav{
      display: flex;
@@ -242,7 +242,7 @@
  /* container and its' cards */
  .container{
      display: grid;
-     grid-template-areas: 
+     grid-template-areas:
      "main1 "
      "main2 ";
      row-gap: 1ch;
@@ -250,7 +250,7 @@
  .blogcard{
      border: 1px;
      border-color: black;
-     background-color:whitesmoke;
+     background-color: whitesmoke;
  
  }
  #B1{
@@ -268,7 +268,7 @@
      justify-content: center;
      margin-top: auto;
  }
- }
+}  
  /* Hmm i wonder what are those empty lines for.... */
  /* probably a zip bomb? nah  */
  /* scroll for not a surprise (dont worry it just text)*/
